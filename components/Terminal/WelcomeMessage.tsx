@@ -8,7 +8,7 @@ interface WelcomeMessageProps {
 const WelcomeMessage: React.FC<WelcomeMessageProps> = ({ asciiArt }) => {
   return (
     <div key={0}>
-      <div><pre>{asciiArt}</pre></div>
+      <div><pre className='text-green-500 text-[8px] sm:text-sm lg:text-xl'>{asciiArt}</pre></div>
         <p>Welcome to my Portfolio</p>
         <p>Type <span className="text-green-500">&#96;ls&#96;</span> or <span className="text-green-500">&#96;help&#96;</span> to see available commands</p>
         <p className="text-cyan-600 flex items-center">
