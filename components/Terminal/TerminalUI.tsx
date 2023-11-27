@@ -37,8 +37,11 @@ const TerminalUI = () => {
     ];
 
     for (const process of fakeCompilationProcess) {
-      await new Promise((resolve) => setTimeout(resolve, 500)); // Simulate compilation time
-      setOutputs((prevOutputs) => [...prevOutputs, <span>{process}</span>]);
+      await new Promise((resolve) => setTimeout(resolve, 500));
+      setOutputs((prevOutputs) => [
+        ...prevOutputs,
+        <span key={Math.random()}>{process}</span>,
+      ]);
     }
   };
 

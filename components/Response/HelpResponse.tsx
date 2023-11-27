@@ -29,7 +29,7 @@ const HelpResponse: React.FC = () => (
     <p className="mb-2">Available commands:</p>
     <ul className="list-disc text-blue-500 cursor-pointer">
       <li className="mb-2 flex flex-col md:flex-row md:items-center">
-        <div className='flex items-center sm:items-left'>
+        <div className="flex items-center sm:items-left">
           <span className="text-emerald-500 md:mr-4"><FaUser /></span>
           <strong className="text-yellow-500">About:</strong>
         </div>
@@ -99,7 +99,7 @@ const HelpResponse: React.FC = () => (
         <div className="flex-grow">
           <strong className="text-yellow-500">Projects:</strong>
           <span className="hidden md:inline-block md:ml-2">&nbsp;&nbsp;</span>
-          --Explore the projects I've coded.
+          --Explore the projects I&apos;ve coded.
         </div>
       </li>
       <li className="mb-2 flex items-center">

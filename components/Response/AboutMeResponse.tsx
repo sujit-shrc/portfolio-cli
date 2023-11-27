@@ -4,7 +4,7 @@ import { FaUser, FaCode, FaMoon, FaHeart, FaMapMarkerAlt, FaLaptopCode, FaHandsH
 const AboutMeResponse: React.FC = () => (
   <div className="text-white">
     <p className="mb-4">
-      Hi there! I'm Sujit Kumar, a <strong className="text-emerald-500">Full Stack Developer</strong> based in Kanpur, India (Uttar Pradesh).
+      Hi there! I&apos;m Sujit Kumar&comma; a <strong className="text-emerald-500">Full Stack Developer</strong> based in Kanpur&comma; India (Uttar Pradesh).
     </p>
     
     <div className="flex items-center mb-2">
@@ -44,7 +44,7 @@ const AboutMeResponse: React.FC = () => (
 
     <div className="flex items-center">
       <FaMapMarkerAlt className="mr-2 text-emerald-500" />
-      <strong>Location:</strong> Kanpur, India (Uttar Pradesh)
+      <strong>Location:</strong> Kanpur&comma; India (Uttar Pradesh)
     </div>
   </div>
 );
