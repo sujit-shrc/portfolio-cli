@@ -13,7 +13,7 @@ const AutoSuggestions: React.FC<AutoSuggestionsProps> = ({
   setSuggestionIndex,
 }) => {
   return (
-    <div className="suggestions flex gap-2 z-1 absolute top-6 left-[62px]">
+    <div className="suggestions flex gap-2 z-1 absolute top-6 left-[57px]">
       {suggestions.map((suggest, index) => (
         <div
           key={index}
